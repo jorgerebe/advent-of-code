@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C2DF47C5-C1ED-44DC-B8FF-6309000A0397}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9A0B90E0-1735-4701-9DE8-3E309443F91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode", "src\AdventOfCode\AdventOfCode.csproj", "{394A7A1E-B4BF-4FE4-BFB1-E361D7ED6023}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394A7A1E-B4BF-4FE4-BFB1-E361D7ED6023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394A7A1E-B4BF-4FE4-BFB1-E361D7ED6023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394A7A1E-B4BF-4FE4-BFB1-E361D7ED6023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394A7A1E-B4BF-4FE4-BFB1-E361D7ED6023}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{394A7A1E-B4BF-4FE4-BFB1-E361D7ED6023} = {9A0B90E0-1735-4701-9DE8-3E309443F91C}
+	EndGlobalSection
+EndGlobal

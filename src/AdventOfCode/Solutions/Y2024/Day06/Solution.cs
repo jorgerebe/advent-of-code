@@ -179,7 +179,7 @@ public class Solution(IOptions<AppSettings> options, IFileReader fileReader) : B
         }
     }
 
-    private static Point Move(Point point, Direction direction)
+    public static Point Move(Point point, Direction direction)
     {
         return direction switch
         {
@@ -191,7 +191,7 @@ public class Solution(IOptions<AppSettings> options, IFileReader fileReader) : B
         };
     }
 
-    enum Direction
+    public enum Direction
     {
         Left,
         Up,
